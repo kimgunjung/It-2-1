@@ -7,7 +7,7 @@ public class GraphicsDrawLineEx extends JFrame {
 	private MyPanel panel = new MyPanel();
 
 	public GraphicsDrawLineEx() {
-		setTitle("drawLine »ç¿ë ¿¹Á¦");
+		setTitle("drawLine ì‚¬ìš© ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setContentPane(panel);
 		
@@ -18,8 +18,8 @@ public class GraphicsDrawLineEx extends JFrame {
 	class MyPanel extends JPanel {
 		public void paintComponent(Graphics g) {
 			super.paintComponent(g);
-			g.setColor(Color.RED); // »¡°£»ö ¼±ÅÃ
-			g.drawLine(20, 20, 100, 100); // ¼±±×¸®±â
+			g.setColor(Color.RED); 
+			g.drawLine(20, 20, 100, 100);
 		}	
 	}
 	
